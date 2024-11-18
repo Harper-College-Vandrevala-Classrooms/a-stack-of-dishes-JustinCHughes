@@ -60,6 +60,11 @@ public class DishStack {
   {
     return stack.size();
   }
+
+  public int getMaxSize()
+  {
+    return this.max;
+  }
 }
 
 

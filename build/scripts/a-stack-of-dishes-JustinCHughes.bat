@@ -19,7 +19,7 @@
 @if "%DEBUG%"=="" @echo off
 @rem ##########################################################################
 @rem
-@rem  payroll-JustinCHughes startup script for Windows
+@rem  a-stack-of-dishes-JustinCHughes startup script for Windows
 @rem
 @rem ##########################################################################
 
@@ -35,7 +35,7 @@ set APP_HOME=%DIRNAME%..
 @rem Resolve any "." and ".." in APP_HOME to make it shorter.
 for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
 
-@rem Add default JVM options here. You can also use JAVA_OPTS and PAYROLL_JUSTIN_C_HUGHES_OPTS to pass JVM options to this script.
+@rem Add default JVM options here. You can also use JAVA_OPTS and A_STACK_OF_DISHES_JUSTIN_C_HUGHES_OPTS to pass JVM options to this script.
 set DEFAULT_JVM_OPTS=
 
 @rem Find java.exe
@@ -70,22 +70,22 @@ goto fail
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\payroll-JustinCHughes.jar
+set CLASSPATH=%APP_HOME%\lib\a-stack-of-dishes-JustinCHughes.jar
 
 
-@rem Execute payroll-JustinCHughes
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %PAYROLL_JUSTIN_C_HUGHES_OPTS%  -classpath "%CLASSPATH%" com.csc.Payroll %*
+@rem Execute a-stack-of-dishes-JustinCHughes
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %A_STACK_OF_DISHES_JUSTIN_C_HUGHES_OPTS%  -classpath "%CLASSPATH%" com.csc.Payroll %*
 
 :end
 @rem End local scope for the variables with windows NT shell
 if %ERRORLEVEL% equ 0 goto mainEnd
 
 :fail
-rem Set variable PAYROLL_JUSTIN_C_HUGHES_EXIT_CONSOLE if you need the _script_ return code instead of
+rem Set variable A_STACK_OF_DISHES_JUSTIN_C_HUGHES_EXIT_CONSOLE if you need the _script_ return code instead of
 rem the _cmd.exe /c_ return code!
 set EXIT_CODE=%ERRORLEVEL%
 if %EXIT_CODE% equ 0 set EXIT_CODE=1
-if not ""=="%PAYROLL_JUSTIN_C_HUGHES_EXIT_CONSOLE%" exit %EXIT_CODE%
+if not ""=="%A_STACK_OF_DISHES_JUSTIN_C_HUGHES_EXIT_CONSOLE%" exit %EXIT_CODE%
 exit /b %EXIT_CODE%
 
 :mainEnd
