@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.csc.TestDishStack" tests="11" skipped="0" failures="0" errors="0" timestamp="2024-11-18T00:58:31" hostname="DESKTOP-BA9STQJ" time="0.024">
+<testsuite name="com.csc.TestDishStack" tests="11" skipped="0" failures="0" errors="0" timestamp="2024-11-18T01:08:21" hostname="DESKTOP-BA9STQJ" time="0.023">
   <properties/>
   <testcase name="testPop()" classname="com.csc.TestDishStack" time="0.012"/>
   <testcase name="testEmpty()" classname="com.csc.TestDishStack" time="0.001"/>
   <testcase name="testPeek()" classname="com.csc.TestDishStack" time="0.0"/>
-  <testcase name="testPopPopPop()" classname="com.csc.TestDishStack" time="0.001"/>
-  <testcase name="testPopNull()" classname="com.csc.TestDishStack" time="0.003"/>
+  <testcase name="testPopPopPop()" classname="com.csc.TestDishStack" time="0.0"/>
+  <testcase name="testPopNull()" classname="com.csc.TestDishStack" time="0.002"/>
   <testcase name="testFourDishes()" classname="com.csc.TestDishStack" time="0.001"/>
-  <testcase name="maxStack()" classname="com.csc.TestDishStack" time="0.0"/>
-  <testcase name="testPopPopPopPop()" classname="com.csc.TestDishStack" time="0.0"/>
+  <testcase name="maxStack()" classname="com.csc.TestDishStack" time="0.001"/>
+  <testcase name="testPopPopPopPop()" classname="com.csc.TestDishStack" time="0.001"/>
   <testcase name="testPeekNull()" classname="com.csc.TestDishStack" time="0.0"/>
   <testcase name="testPopPop()" classname="com.csc.TestDishStack" time="0.0"/>
   <testcase name="pushedTwoDishTwiceIntoMax()" classname="com.csc.TestDishStack" time="0.0"/>

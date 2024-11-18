@@ -213,7 +213,7 @@ DEFAULT_JVM_OPTS=""
 
 set -- \
         -classpath "$CLASSPATH" \
-        com.csc.Payroll \
+        com.csc.Main \
         "$@"
 
 # Stop when "xargs" is not available.

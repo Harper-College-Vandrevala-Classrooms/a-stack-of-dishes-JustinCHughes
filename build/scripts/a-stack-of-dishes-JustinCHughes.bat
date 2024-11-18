@@ -74,7 +74,7 @@ set CLASSPATH=%APP_HOME%\lib\a-stack-of-dishes-JustinCHughes.jar
 
 
 @rem Execute a-stack-of-dishes-JustinCHughes
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %A_STACK_OF_DISHES_JUSTIN_C_HUGHES_OPTS%  -classpath "%CLASSPATH%" com.csc.Payroll %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %A_STACK_OF_DISHES_JUSTIN_C_HUGHES_OPTS%  -classpath "%CLASSPATH%" com.csc.Main %*
 
 :end
 @rem End local scope for the variables with windows NT shell
