@@ -6,18 +6,23 @@ public class DishStack {
   private ArrayList<Dish> stack;
   private int max;
 
+  // Creates DishStack with a user defined max amount
   public DishStack(int max)
   {
     this.stack = new ArrayList<>();
     this.max = max;
   }
 
+  // Creates DishStack where this.max is set to -1.
+  // Later, max amount for DishStack is disregarded if negative
   public DishStack()
   {
     this.stack = new ArrayList<>();
     this.max = -1;
   }
 
+  // Adds Dish to stack. As prior noted, Dish is added
+  // if this.max is either negative or less than this.max
   public void push(Dish dish)
   {
     if(this.max < 0 || stack.size() < this.max)
@@ -30,6 +35,7 @@ public class DishStack {
     }
   }
 
+  // Removes and returns last dish in
   public Dish pop()
   {
     if(!stack.isEmpty())
@@ -43,6 +49,7 @@ public class DishStack {
     return null;
   }
 
+  // Checks what the top of the stack is
   public Dish peek()
   {
     if(!stack.isEmpty())
@@ -56,11 +63,13 @@ public class DishStack {
     return null;
   }
 
+  // Returns current stack's size
   public int size()
   {
     return stack.size();
   }
 
+  // Returns stacks maximum size
   public int getMaxSize()
   {
     return this.max;
