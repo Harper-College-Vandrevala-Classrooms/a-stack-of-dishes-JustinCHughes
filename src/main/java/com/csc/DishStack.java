@@ -66,13 +66,21 @@ public class DishStack {
   // Returns current stack's size
   public int size()
   {
-    return stack.size();
+    return this.stack.size();
   }
 
   // Returns stacks maximum size
   public int getMaxSize()
   {
     return this.max;
+  }
+
+  public void clear()
+  {
+    while(this.stack.size() > 0)
+    {
+      this.pop();
+    }
   }
 }
 

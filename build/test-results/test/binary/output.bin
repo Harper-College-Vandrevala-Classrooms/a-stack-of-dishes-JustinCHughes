@@ -1,8 +1,8 @@
-8This stack is currently empty. There is nothing to pop.
-
-
-;This stack is currently empty. There are no items to peek.
-
-
-CThis stack is full. Adding another would exceed the allotted size.
-
+CThis stack is full. Adding another would exceed the allotted size.
+
+8This stack is currently empty. There is nothing to pop.
+
+;This stack is currently empty. There are no items to peek.
+
+CThis stack is full. Adding another would exceed the allotted size.
+

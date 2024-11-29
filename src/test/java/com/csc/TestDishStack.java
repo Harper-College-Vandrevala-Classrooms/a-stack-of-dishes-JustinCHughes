@@ -159,4 +159,24 @@ public class TestDishStack {
 
     assertEquals("A dish with two fish patterns on it", maxDishStack.peek().description);
   }
+
+  @Test
+  void testClear() {
+    DishStack maxDishStack = new DishStack(4);
+
+    Dish oneDish = new Dish("A dish with one fish pattern on it");
+    Dish twoDish = new Dish("A dish with two fish patterns on it");
+    Dish redDish = new Dish("A dish with a red fish pattern on it");
+    Dish blueDish = new Dish("A dish with a blue fish pattern on it");
+
+    maxDishStack.push(oneDish);
+    maxDishStack.push(twoDish);
+    maxDishStack.push(redDish);
+    maxDishStack.push(twoDish);
+    maxDishStack.push(blueDish);
+
+    maxDishStack.clear();
+
+    assertEquals(0,maxDishStack.size());
+  }
 }

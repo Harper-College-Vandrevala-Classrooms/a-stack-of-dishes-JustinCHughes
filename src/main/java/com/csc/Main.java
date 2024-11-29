@@ -30,6 +30,18 @@ public class Main {
     System.out.println("Popped item should be 'A dish with a red fish pattern on it' it is: \n" + stack.pop().description);
   
     // The variable finalSize should equal two.
-    System.out.println("Stack size should be 2. It is currently: " + stack.size());   
+    System.out.println("Stack size should be 2. It is currently: " + stack.size());  
+    
+    stack.push(oneDish);
+    stack.push(twoDish);
+    stack.push(redDish);
+    stack.push(blueDish);
+
+    stack.peek();
+    System.out.println("Running clear function");
+
+    stack.clear();
+
+    stack.peek();
   }
 }
